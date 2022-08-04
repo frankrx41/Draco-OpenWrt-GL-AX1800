@@ -85,14 +85,14 @@ module.exports = [
   //   name: 'luci-app-syncdial',
   //   desc: '多拨虚拟网卡（需要光猫支持多拨）',
   // },
-  // {
-  //   name: 'luci-app-passwall',
-  //   desc: 'passwall代理软件',
-  // },
-  // {
-  //   name: 'luci-app-ssr-plus',
-  //   desc: 'ssr-plus 代理软件',
-  // },
+  {
+    name: 'luci-app-passwall',
+    desc: 'passwall代理软件',
+  },
+  {
+    name: 'luci-app-ssr-plus',
+    desc: 'ssr-plus 代理软件',
+  },
   // {
   //   name: 'luci-app-aliddns',
   //   desc: '阿里云ddns插件',
@@ -109,22 +109,22 @@ module.exports = [
   //   name: 'luci-app-filetransfer',
   //   desc: '文件传输',
   // },
-  // {
-  //   name: 'luci-app-ddnsto',
-  //   desc: 'DDNSTO 内网穿透',
-  // },
-  // {
-  //   name: 'luci-app-mwan3',
-  //   desc: 'MWAN3负载均衡',
-  // },
-  // {
-  //   name: 'luci-app-mwan3helper',
-  //   desc: ' MWAN3分流助手',
-  // },
-  // {
-  //   name: 'luci-app-wrtbwmon',
-  //   desc: '实时流量监测',
-  // },
+  {
+    name: 'luci-app-ddnsto',
+    desc: 'DDNSTO 内网穿透',
+  },
+  {
+    name: 'luci-app-mwan3',
+    desc: 'MWAN3负载均衡',
+  },
+  {
+    name: 'luci-app-mwan3helper',
+    desc: ' MWAN3分流助手',
+  },
+  {
+    name: 'luci-app-wrtbwmon',
+    desc: '实时流量监测',
+  },
   {
     name: 'luci-app-serverchan',
     desc: '微信/Telegram推送',
@@ -137,12 +137,12 @@ module.exports = [
     name: 'luci-app-dailybonus',
     desc: '京东签到服务',
   },
-  // {
-  //   name: 'luci-app-frpc',
-  //   desc: 'frpc 网络代理',
-  // },
-  // {
-  //   name: 'luci-app-frps',
-  //   desc: 'frps 网络代理',
-  // },
+  {
+    name: 'luci-app-frpc',
+    desc: 'frpc 网络代理',
+  },
+  {
+    name: 'luci-app-frps',
+    desc: 'frps 网络代理',
+  },
 ];
